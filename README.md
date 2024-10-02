@@ -27,9 +27,9 @@
 1. 完整克隆本项目及子项目（地址请修改为您基于本模板创建的新项目地址）。
 
     ```bash
-    git clone --recursive https://github.com/MaaXYZ/MaaPracticeBoilerplate.git
+    git clone --recursive https://github.com/253945880/Learn.git
     ```
-     git clone --recursive https://github.com/253945880/Learn.git
+     
     **请注意，一定要完整克隆子项目，不要漏了 `--recursive`，也不要下载 zip 包！** 这步未正确操作会导致所有 OCR（文字识别）失败！
 
 2. 下载 MaaFramework 的 [Release 包](https://github.com/MaaXYZ/MaaFramework/releases)，解压到 `deps` 文件夹中。
