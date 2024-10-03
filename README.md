@@ -20,26 +20,26 @@
 ## 使用说明
     以 Windows 用户为主，其他系统请照葫芦画瓢。
 
-1.使用前，前往森空岛官网下载森空岛APP
-2.在模拟器上安装并登录森空岛APP
-3.首次使用，打开模拟器，双击打开 MaaPiCli.exe 或 通过 CMD 执行 MaaPiCli.exe
-4.选择ADB（本教程以 Auto detect 为例）
-5.等待扫描设备（设备越多等待时间越长）
-6.选择需要连接的设备
-7.开始使用吧！
+    1.使用前，下载DNF助手APP和QQ
+    2.在模拟器上安装并登录DNF助手APP
+    3.首次使用，打开模拟器，双击打开 MaaPiCli.exe 或 通过 CMD 执行 MaaPiCli.exe
+    4.选择ADB（本教程以 Auto detect 为例）
+    5.等待扫描设备（设备越多等待时间越长）
+    6.选择需要连接的设备
+    7.开始使用吧！
 
-添加 -d 参数可跳过交互直接运行任务，如 ./MaaPiCli.exe -d
+    添加 -d 参数可跳过交互直接运行任务，如 ./MaaPiCli.exe -d
 
-新建一个文本文件，在其中填入以下内容
+    新建一个文本文件，在其中填入以下内容
 
-```bash
+    ```bash
 @echo off
 cd D:\MAA-DNFaides\install
 MaaPiCli.exe -d
-```
-注意：D:\MAA-DNFaides\install 请替换成你自己的 MAS 目录
+    ```
+    注意：D:\MAA-DNFaides\install 请替换成你自己的 MAS 目录
 
-将文本文件重命名为 finish.bat
+    将文本文件重命名为 finish.bat
 
 
 ## 即刻开始
