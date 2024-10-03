@@ -30,19 +30,6 @@
 
     添加 -d 参数可跳过交互直接运行任务，如 ./MaaPiCli.exe -d
 
-    新建一个文本文件，在其中填入以下内容
-
-    ```bash
-@echo off
-cd D:\MAA-DNFaides\install
-MaaPiCli.exe -d
-    ```
-    
-    注意：D:\MAA-DNFaides\install 请替换成你自己的 MAS 目录
-
-    将文本文件重命名为 finish.bat
-
-
 ## 即刻开始
 
 - [⭐ 开发思路](https://github.com/MaaXYZ/MaaFramework/blob/main/docs/zh_cn/0.1-%E5%BC%80%E5%8F%91%E6%80%9D%E8%B7%AF.md)
