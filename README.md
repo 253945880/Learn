@@ -20,8 +20,8 @@
 
 ## How to use
 
-> 1. [下载](https://github.com/Kagura-wei/MAA-DNFaides/releases) 对应平台的压缩包
-> 2. 将压缩包解压到没有中文的目录下
+1. [下载](https://github.com/Kagura-wei/MAA-DNFaides/releases) 对应平台的压缩包
+2. 将压缩包解压到没有中文的目录下
 
 ### 基本说明
 
