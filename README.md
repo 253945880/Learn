@@ -37,6 +37,7 @@
 cd D:\MAA-DNFaides\install
 MaaPiCli.exe -d
     ```
+    
     注意：D:\MAA-DNFaides\install 请替换成你自己的 MAS 目录
 
     将文本文件重命名为 finish.bat
