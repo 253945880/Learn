@@ -14,24 +14,6 @@
 > **MaaFramework** 是基于图像识别技术、运用 [MAA](https://github.com/MaaAssistantArknights/MaaAssistantArknights) 开发经验去芜存菁、完全重写的新一代自动化黑盒测试框架。
 > 低代码的同时仍拥有高扩展性，旨在打造一款丰富、领先、且实用的开源库，助力开发者轻松编写出更好的黑盒测试程序，并推广普及。
 
-## 适配情况
-
-    目前仅适配了 1920x1080 480dpi 分辨率
-
-## 使用说明
-
-    以 Windows 用户为主，其他系统请照葫芦画瓢。
-
-    1.使用前，下载DNF助手APP和QQ
-    2.在模拟器上安装并登录DNF助手APP
-    3.首次使用，打开模拟器，双击打开 MaaPiCli.exe 或 通过 CMD 执行 MaaPiCli.exe
-    4.选择ADB（本教程以 Auto detect 为例）
-    5.等待扫描设备（设备越多等待时间越长）
-    6.选择需要连接的设备
-    7.开始使用吧！
-
-    添加 -d 参数可跳过交互直接运行任务，如 ./MaaPiCli.exe -d
-
 ## 即刻开始
 
 - [⭐ 开发思路](https://github.com/MaaXYZ/MaaFramework/blob/main/docs/zh_cn/0.1-%E5%BC%80%E5%8F%91%E6%80%9D%E8%B7%AF.md)
