@@ -1,5 +1,122 @@
 {
-    "MyTask1": {},
-    "MyTask2": {},
-    "MyTask3": {}
+    "点击资讯": {
+        "recognition": "TemplateMatch",
+        "roi": [
+            0,
+            709,
+            720,
+            529
+        ],
+        "template": "评论.png",
+        "action": "Click",
+        "target_offset": [
+            200,
+            0,
+            -200,
+            0
+        ],
+        "next": [
+            "返回"
+        ]
+    },
+    "返回": {
+        "recognition": "OCR",
+        "expected": "详情",
+        "action": "Click",
+        "target_offset": [
+            -300,
+            0,
+            0,
+            0
+        ],
+        "next": [
+            "点击动态"
+        ]
+    },
+    "点击动态": {
+        "recognition": "OCR",
+        "expected": "动态",
+        "action": "Click",
+        "next": [
+            "点击菜单"
+        ]
+    },
+    "点击菜单": {
+        "recognition": "TemplateMatch",
+        "template": "DNF.png",
+        "roi": [
+            0,
+            0,
+            100,
+            100
+        ],
+        "action": "Click",
+        "next": [
+            "点击编年"
+        ]
+    },
+    "点击编年": {
+        "recognition": "OCR",
+        "expected": "编年等级",
+        "action": "Click",
+        "post_delay": 1200,
+        "next": [
+            "向下滑动"
+        ]
+    },
+    "向下滑动": {
+        "action": "Swipe",
+        "begin": [
+            100,
+            500,
+            10,
+            10
+        ],
+        "end": [
+            100,
+            100,
+            10,
+            10
+        ],
+        "next": [
+            "点击签到"
+        ]
+    },
+    "点击签到": {
+        "recognition": "OCR",
+        "expected": "签到",
+        "action": "Click",
+        "next": [
+            "确认2"
+        ],
+        "timeout": 3000
+    },
+    "确认2": {
+        "recognition": "OCR",
+        "expected": "确认",
+        "action": "Click",
+        "index": 2,
+        "next": [
+            "确认1"
+        ],
+        "timeout": 3000
+    },
+    "点击领取": {
+        "recognition": "OCR",
+        "expected": "领取奖励 exp",
+        "action": "Click",
+        "next": [
+            "确认1"
+        ],
+        "timeout": 3000
+    },
+    "确认1": {
+        "recognition": "OCR",
+        "expected": "确认",
+        "action": "Click",
+        "next": [
+            "点击领取"
+        ],
+        "timeout": 3000
+    }
 }
